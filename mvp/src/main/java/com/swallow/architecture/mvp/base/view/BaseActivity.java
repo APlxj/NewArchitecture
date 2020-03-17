@@ -33,8 +33,8 @@ public abstract class BaseActivity<V extends IView, P extends IPresenter<V>>
         extends RxAppCompatActivity
         implements MvpCallback<V, P>, IActivity {
 
-    protected V mView;
-    protected P mPresenter;
+    private V mView;
+    private P mPresenter;
     //选中fragment
     private Fragment mCurrentFragment;
 
@@ -83,7 +83,7 @@ public abstract class BaseActivity<V extends IView, P extends IPresenter<V>>
         if (getPresenter() == null) {
             mPresenter = createPresenter();
         }
-       /* if (getPresenter() != null) {
+        /*if (getPresenter() != null) {
             getPresenter().attachView(getMvpView());
         }*/
     }

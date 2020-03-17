@@ -3,6 +3,8 @@ package com.swallow.architecture.mvp.i;
 import android.content.Context;
 import android.support.annotation.Nullable;
 
+import com.swallow.architecture.mvp.base.view.BaseActivity;
+
 /**
  * 类描述：顶层view接口
  * 创建人：swallow.li

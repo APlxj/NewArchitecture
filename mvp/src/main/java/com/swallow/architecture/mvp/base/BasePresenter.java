@@ -6,6 +6,8 @@ import com.swallow.architecture.mvp.i.IModel;
 import com.swallow.architecture.mvp.i.IPresenter;
 import com.swallow.architecture.mvp.i.IView;
 
+import javax.inject.Inject;
+
 /**
  * 类描述：
  * 创建人：swallow.li
@@ -20,8 +22,8 @@ public abstract class BasePresenter<V extends IView, M extends IModel>
         attachView(mView);
     }
 
-    protected V mView;
-    protected M mModel;
+    private V mView;
+    private M mModel;
 
     /**
      * 绑定view,获取model
@@ -57,4 +59,5 @@ public abstract class BasePresenter<V extends IView, M extends IModel>
     public M getModel() {
         return mModel;
     }
+
 }

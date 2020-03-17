@@ -6,194 +6,71 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c975e30-a29a-4b89-8cf4-7bb22c62aab3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Architecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewArchitecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/contract/ILoadingContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/model/LoadingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/presenter/LoadingPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/utils/CrashHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/view/LoadingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_loading.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/mvp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BasePresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/IActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/IFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseListFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/CheckPermissionsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/callback/MvpCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/utils/RomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/utils/StatusBarCompat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvp/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/androidTest/java/com/swallow/architecture/net/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/test/java/com/swallow/architecture/net/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/orm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/dao/DaoHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/DaoMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/DaoSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenMatch.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenMatch_example_dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ActivityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/AppUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/BarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CacheUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CameraUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CleanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ClipboardUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CloseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ConvertUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CrashUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/DeviceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/EditUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/EmptyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/EncodeRSAUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/EncodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/EncryptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/FileIOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/FragmentUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/HandWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/IntentUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/JRTTDensityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/KeyboardUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/LocationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/LunarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/NetworkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/PermissionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/PhoneUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/PinyinUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ProcessUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/RegexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/SDCardUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/SPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ScreenUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ServiceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ShellUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/SizeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/SnackbarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/SpanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/StatuBarCompat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ThreadPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/TimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ToastUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/VibrationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/ZipUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/constant/MemoryConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/constant/RegexConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/constant/TimeConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/location/GPSLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/location/GPSLocationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/location/GPSLocationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/location/GPSProviderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/location/GPSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/res/drawable/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/res/values/ids.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.iml" afterDir="false" />
+    <list default="true" id="1c975e30-a29a-4b89-8cf4-7bb22c62aab3" name="Default" comment="init project">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_fastjson_1_1_52_android_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_fastjson_1_1_54_android_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_23_3_android_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_11_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ligboy_retrofit2_converter_fastjson_android_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/modules/AppModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/api/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/BaseInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/OKHttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RxUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mvp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp/mvp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvp/mvp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BasePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/net/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/net.iml" beforeDir="false" afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/androidTest/java/com/swallow/architecture/net/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/test/java/com/swallow/architecture/net/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/orm/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/orm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/orm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/dao/DaoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/dao/DaoHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/DaoMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/DaoMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -216,16 +93,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadingActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/view/LoadingActivity.java">
+      <file leaf-file-name="BaseUrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseUrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="528">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orm/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/app/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OKHttpUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/OKHttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetrofitUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RetrofitUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RxUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-539">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/HttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createView</find>
+      <find>createPresenter</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -6466,6 +6449,24 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IView.java" />
+        <option value="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/view/LoadingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/presenter/LoadingPresenter.java" />
+        <option value="$PROJECT_DIR$/mvp/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/modules/AppModule.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/api/ApiService.java" />
+        <option value="$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BasePresenter.java" />
+        <option value="$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/dao/DaoHelper.java" />
+        <option value="$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseUrl.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="202" />
     <option name="y" value="5" />
@@ -6485,6 +6486,126 @@
               <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="net" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewArchitecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="orm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -6499,56 +6620,92 @@
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="mvp" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="net" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="presenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="architecture" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swallow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swallow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swallow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swallow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="orm" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="swallow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="greendao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewArchitecture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -6558,7 +6715,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/ConsultativePlatform/net" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -6684,10 +6841,19 @@
       <option name="presentableId" value="Default" />
       <updated>1584430812306</updated>
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1584431131069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584431131069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
@@ -6704,7 +6870,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.3293348" />
+      <window_info anchor="bottom" id="Build" weight="0.34678298" />
       <window_info anchor="right" id="WIFI ADB ULTIMATE" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -6724,6 +6890,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/utils/CrashHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -6732,10 +6902,263 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/callback/MvpCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/IActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/android/studio config/.gradle/caches/modules-2/files-2.1/com.trello/rxlifecycle-components/1.0/ece3ef7adcc69f26def230266e0dc1641b8aeeb7/rxlifecycle-components-1.0-sources.jar!/com/trello/rxlifecycle/components/support/RxAppCompatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/view/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#process#0;class#BaseActivity#0" />
+            <element signature="method#setStatusBar#0;class#BaseActivity#0" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#4600#4601#0" expanded="true" />
+            <element signature="e#4655#4656#0" expanded="true" />
+            <element signature="e#4710#4711#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/i/IPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/view/LoadingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="328">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/presenter/LoadingPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/modules/AppModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm/src/main/java/com/swallow/greendao/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp/src/main/java/com/swallow/architecture/mvp/base/BasePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/dao/DaoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm/src/main/java/com/swallow/architecture/orm/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/api/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/BaseInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/OKHttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-539">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/utils/RetrofitUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/src/main/java/com/swallow/architecture/net/base/BaseUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/swallow/com/model_utils/CrashUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/swallow/architecture/architecture/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,15 @@
 package com.swallow.architecture.orm.dao;
 
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.support.annotation.NonNull;
+
+import com.swallow.architecture.orm.BuildConfig;
+import com.swallow.greendao.DaoMaster;
+import com.swallow.greendao.DaoSession;
+
+import org.greenrobot.greendao.query.QueryBuilder;
+
 /**
  * 类描述：
  * 创建人：swallow.li
@@ -9,12 +19,12 @@ package com.swallow.architecture.orm.dao;
  */
 public class DaoHelper {
 
-    /*public final static String DATABASE_NAME = "shopping.db";
+    public final static String DATABASE_NAME = "cp.db";
     private static DaoSession daoSession;
 
-    *//**
+    /*
      * 初始数据库
-     *//*
+     */
     public static void init(@NonNull Context context) {
         //创建数据库shop.db
         DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(context, DATABASE_NAME, null);
@@ -33,5 +43,5 @@ public class DaoHelper {
 
     public static DaoSession getDaoSession() {
         return daoSession;
-    }*/
+    }
 }

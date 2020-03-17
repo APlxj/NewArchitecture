@@ -18,6 +18,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -31,6 +35,5 @@ dependencies {
 
     implementation project(':mvp')
     implementation project(':net')
-    implementation project(':orm')
     implementation project(':utils')
 }
