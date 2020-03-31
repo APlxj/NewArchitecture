@@ -1,4 +1,4 @@
-package com.reconova.utils.location;
+package swallow.com.model_utils.location;
 
 /**
  * 类描述：GPS状态类

@@ -1,4 +1,4 @@
-package com.reconova.utils.location;
+package swallow.com.model_utils.location;
 
 import android.location.Location;
 import android.os.Bundle;

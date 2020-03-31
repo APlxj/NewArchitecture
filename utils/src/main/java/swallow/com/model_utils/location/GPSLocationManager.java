@@ -1,17 +1,16 @@
-package com.reconova.utils.location;
+package swallow.com.model_utils.location;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
-import android.os.Build;
 import android.os.Handler;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
-import android.widget.Toast;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.ExecutorService;
@@ -40,6 +39,7 @@ public class GPSLocationManager {
         initData(context);
     }
 
+    @SuppressLint("HandlerLeak")
     private void initData(Activity context) {
         this.mContext = new WeakReference<>(context);
         if (mContext.get() != null) {
