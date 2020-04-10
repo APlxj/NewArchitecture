@@ -31,6 +31,10 @@ public class BaseUrl {
     private static final String IP = "http://ntp.sn.sgcc.com.cn/";
     private static final String WSSOCKET = "ws://ntp.sn.sgcc.com.cn/";
 
+    //接口具体路径
+    public static final String MSG = "/ntp-information-release/cmMessage/webPageQuery";
+    public static final String FILEPATH = "/zuul/acloud-file-center/file/oper/upload";
+
     public static String getHost(int type) {
         switch (type) {
             case 0:

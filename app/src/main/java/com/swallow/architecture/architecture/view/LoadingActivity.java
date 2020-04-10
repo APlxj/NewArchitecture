@@ -1,9 +1,9 @@
 package com.swallow.architecture.architecture.view;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
 
 import com.swallow.architecture.architecture.MainActivity;
 import com.swallow.architecture.architecture.R;
@@ -39,12 +39,7 @@ public class LoadingActivity
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        findViewById(R.id.bt_login).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toActivity(MainActivity.class);
-            }
-        });
+        findViewById(R.id.bt_login).setOnClickListener(v -> startActivity(new Intent(LoadingActivity.this, MainActivity.class)));
     }
 
     @Override
@@ -52,17 +47,13 @@ public class LoadingActivity
         super.needPermissions = new String[]{
                 Manifest.permission.CALL_PHONE
                 , Manifest.permission.WRITE_EXTERNAL_STORAGE
+                , Manifest.permission.CAMERA
         };
         super.onResume();
     }
 
     @Override
     protected void onRequestPermissionsSuccess() {
-
-    }
-
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
 }

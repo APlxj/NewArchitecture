@@ -31,14 +31,14 @@ public interface ApiService {
      *GET 示例
      ***********************************************************************************************/
     @Headers({BaseUrl.UTF_8})
-    @GET("/ntp-information-release/cmMessage/webPageQuery")
+    @GET(BaseUrl.MSG)
     Observable<BaseEntry<String>> getMsg(@Query("page") int page, @Query("str") String str);
 
     /***********************************************************************************************
      *POST 示例
      ***********************************************************************************************/
     @Headers({BaseUrl.URLENCODED})
-    @POST("/ntp-information-release/cmInformation/pageQuery")
+    @POST(BaseUrl.MSG)
     Observable<BaseEntry<List<String>>> postMsg(@Body Item item);
 
 
@@ -47,7 +47,7 @@ public interface ApiService {
      ***********************************************************************************************/
     //上传
     @Multipart
-    @POST("/zuul/acloud-file-center/file/oper/upload")
+    @POST(BaseUrl.FILEPATH)
     Observable<Item> upFile(@Part MultipartBody.Part file);
 
     //下载
