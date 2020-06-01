@@ -63,6 +63,7 @@ public class CircleView extends View {
 
         canvas.drawRect(rect, mPaint);
 
+        canvas.save();
         canvas.restore();
 
         canvas.drawCircle(width / 2, height / 2, width / 2 - 10, mPaint1);

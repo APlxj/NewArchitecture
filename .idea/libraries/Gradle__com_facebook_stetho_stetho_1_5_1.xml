@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.stetho:stetho-1.5.1">
+    <ANNOTATIONS>
+      <root url="jar://D:/android/studio config/.gradle/caches/transforms-1/files-1.1/stetho-1.5.1.aar/e3173d2837ff79892b722cbf7958e3ed/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://D:/android/studio config/.gradle/caches/transforms-1/files-1.1/stetho-1.5.1.aar/e3173d2837ff79892b722cbf7958e3ed/jars/classes.jar!/" />
+      <root url="file://D:/android/studio config/.gradle/caches/transforms-1/files-1.1/stetho-1.5.1.aar/e3173d2837ff79892b722cbf7958e3ed/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/android/studio config/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.5.1/4c46120db58b779ccf4666728ce22791702d1785/stetho-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

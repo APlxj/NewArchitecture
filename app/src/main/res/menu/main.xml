@@ -16,5 +16,17 @@
         android:orderInCategory="200"
         android:title="@string/action_takepicture"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_video"
+        android:orderInCategory="200"
+        android:title="@string/action_video"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test"
+        android:orderInCategory="200"
+        android:title="@string/action_test"
+        app:showAsAction="never" />
+
 
 </menu>

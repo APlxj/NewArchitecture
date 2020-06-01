@@ -10,4 +10,7 @@
     <string name="action_ocr">预览</string>
     <string name="action_takepicture">拍照</string>
     <string name="action_makecircle">画圆</string>
+    <string name="video_play_list_title">节目</string>
+    <string name="action_video">视频</string>
+    <string name="action_test">测试</string>
 </resources>

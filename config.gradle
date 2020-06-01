@@ -4,114 +4,151 @@ ext {
     isMain = true
 
     android = [
-            compileSdkVersion       : 27,
-            buildToolsVersion       : '27.0.3',
-            minSdkVersion           : 16,
-            targetSdkVersion        : 27,
-            versionCode             : 2,
+            compileSdkVersion       : 28,
+            buildToolsVersion       : '28.0.0',
+            minSdkVersion           : 19,
+            targetSdkVersion        : 28,
+            versionCode             : 1,
             versionName             : "1.0.1",
-            applicationId           : "swallow.com.newmvp",
-            app_name                : "NewMVP",
-            keyPassword             : "940902",
+            applicationId           : "com.swallow.architecture.architecture",
+            app_name                : "APP",
 
-            androidSupportSdkVersion: "27.1.1"
+            keystorePath            : "../keystore.jks",
+            keystorePassword        : "lxj8318",
+            keyAlias                : "newarchitecture",
+            keyPassword             : "lxj8318",
+
+            androidSupportSdkVersion: "28.0.0"
     ]
 
     dependencies = [
-            "appcompat_v7"                   : "com.android.support:appcompat-v7:${android["androidSupportSdkVersion"]}",
-            "constraint_layout"              : 'com.android.support.constraint:constraint-layout:1.1.2',
-            "runner"                         : 'com.android.support.test:runner:1.0.2',
-            "espresso_core"                  : 'com.android.support.test.espresso:espresso-core:3.0.2',
-            "junit"                          : 'junit:junit:4.12',
-            "support_annotations"            : 'com.android.support:support-annotations:27.1.1',
-            "design"                         : "com.android.support:design:${android["androidSupportSdkVersion"]}",
-            "support-v4"                     : "com.android.support:support-v4:${android["androidSupportSdkVersion"]}",
-            "cardview-v7"                    : "com.android.support:cardview-v7:${android["androidSupportSdkVersion"]}",
-            "recyclerview-v7"                : "com.android.support:recyclerview-v7:${android["androidSupportSdkVersion"]}",
-            "guava"                          : "com.google.guava:guava:23.3-android",
+            "appcompat_v7"                 : "com.android.support:appcompat-v7:${android["androidSupportSdkVersion"]}",
+            "constraint_layout"            : 'com.android.support.constraint:constraint-layout:1.1.3',
+            "runner"                       : 'com.android.support.test:runner:1.0.2',
+            "espresso_core"                : 'com.android.support.test.espresso:espresso-core:3.0.2',
+            "junit"                        : 'junit:junit:4.12',
+            "support_annotations"          : "com.android.support:support-annotations:${android["androidSupportSdkVersion"]}",//Nullable找不到的解决方案
+
+            "support-v4"                   : "com.android.support:support-v4:${android["androidSupportSdkVersion"]}",
+            "guava"                        : "com.google.guava:guava:24.1-jre",
+            "retrolambda"                  : 'me.tatarka:gradle-retrolambda:3.7.0',//classpath 导入总工程
+
+            //Material Design
+            "design"                       : "com.android.support:design:${android["androidSupportSdkVersion"]}",
+            "cardview-v7"                  : "com.android.support:cardview-v7:${android["androidSupportSdkVersion"]}",
+
+            //recyclerview
+            "recyclerview-v7"              : "com.android.support:recyclerview-v7:${android["androidSupportSdkVersion"]}",
+            "baseRecyclerViewAdapterHelper": 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22',
 
             //方法数超过65535解决方法64K MultiDex分包方法
-            "multidex"                       : 'com.android.support:multidex:1.0.2',
+            "multidex"                     : 'com.android.support:multidex:1.0.3',
 
             //路由
-            "arouter_api"                    : 'com.alibaba:arouter-api:1.3.1',
-            "arouter_compiler"               : 'com.alibaba:arouter-compiler:1.1.4',
-            "arouter_annotation"             : 'com.alibaba:arouter-annotation:1.0.4',
+            "arouter_api"                  : 'com.alibaba:arouter-api:1.3.1',
+            "arouter_compiler"             : 'com.alibaba:arouter-compiler:1.1.4',
+            "arouter_annotation"           : 'com.alibaba:arouter-annotation:1.0.4',
 
             //黄油刀
-            "butterknife_compiler"           : 'com.jakewharton:butterknife-compiler:8.5.1',
-            "butterknife"                    : 'com.jakewharton:butterknife:8.5.1',
+            "butterknife_compiler"         : 'com.jakewharton:butterknife-compiler:8.5.1',//annotationProcessor 导入使用module
+            "butterknife"                  : 'com.jakewharton:butterknife:8.5.1',
+            "butterknife-gradle-plugin"    : 'com.jakewharton:butterknife-gradle-plugin:8.4.0',//classpath 导入总工程
 
-            //网络
-            //retrofit2包含okhttp
-            //"okhttp3"                       : 'com.squareup.okhttp3:okhttp:3.9.0',
-            "retrofit2"                      : 'com.squareup.retrofit2:retrofit:2.3.0',
-            "converter-gson"                 : 'com.squareup.retrofit2:converter-gson:2.3.0',
-            "adapter-rxjava2"                : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
-            "rxjava2:rxandroid"              : 'io.reactivex.rxjava2:rxandroid:2.0.1',
-            "rxjava2"                        : 'io.reactivex.rxjava2:rxjava:2.1.5',
-            //日志拦截器
-            "logging-interceptor"            : 'com.squareup.okhttp3:logging-interceptor:3.4.1',
-            //暂时没用上
-            "rxbinding2"                     : 'com.jakewharton.rxbinding2:rxbinding:2.1.0',
-            //日志
-            "logger"                         : 'com.orhanobut:logger:2.1.1',
-            //图片
-            "glide"                          : 'com.github.bumptech.glide:glide:4.5.0',
-            "glide:okhttp3"                  : 'com.github.bumptech.glide:okhttp3-integration:4.5.0',
-            //图片选择器
-            "PictureSelector"                : 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3',
-            //图片缩放
-            "photoview"                      : 'com.github.chrisbanes.photoview:library:1.2.4',
-            //时间,地址,条件选择器
-            "pickerView"                     : 'com.contrarywind:Android-PickerView:3.2.7',
+            //rxlife
+            "rxlifecycle"                  : 'com.trello:rxlifecycle:1.0',
+            "rxlifecycle-components"       : 'com.trello:rxlifecycle-components:1.0',
+
+            //dagger
+            "dagger"                       : 'com.google.dagger:dagger:2.11',
+            "dagger-compiler"              : 'com.google.dagger:dagger-compiler:2.11',
+
             //SmartRefreshLayout
-            "smartRefreshLayout"             : 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1',
-            "SmartRefreshHeader"             : 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1',
-            //banner
-            "banner"                         : 'com.youth.banner:banner:1.4.10',
-            //eventbus
-            "eventbus"                       : 'org.greenrobot:eventbus:3.0.0',
-            //baseRecyclerViewAdapterHelper
-            "baseRecyclerViewAdapterHelper"  : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22',
-            //Bugly集成 sdk
-            "bugly"                          : 'com.tencent.bugly:crashreport:latest.release',
-            //仿ios进度条 已抽取到lib中
-            "kprogresshud"                   : 'com.kaopiz:kprogresshud:1.1.0',
-            //6.0权限管理
-            "permissionsdispatcher"          : 'com.github.hotchemi:permissionsdispatcher:3.0.1',
-            "permissionsdispatcher_processor": 'com.github.hotchemi:permissionsdispatcher-processor:3.0.1',
-            //dagger 暂时没用
-            "dagger"                         : 'com.google.dagger:dagger:2.0.2',
-            "dagger-compiler"                : 'com.google.dagger:dagger-compiler:2.0.2',
-            "javax-annotation"               : 'org.glassfish:javax.annotation:10.0-b28',
+            "smartRefreshLayout"           : 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-20',
+            "SmartRefreshHeader"           : 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-20',
+
+            //gson+fastjson
+            "gson"                         : "com.google.code.gson:gson:2.8.2",
+            "fastjson"                     : 'com.alibaba:fastjson:1.1.54.android',
+
+            //网络 retrofit2
+            "retrofit2"                    : 'com.squareup.retrofit2:retrofit:2.3.0',
+            "adapter-rxjava2"              : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
+            "converter-gson"               : 'com.squareup.retrofit2:converter-gson:2.3.0',
+            "converter-fastjson"           : 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0',
+            //日志拦截器
+            "logging-interceptor"          : 'com.squareup.okhttp3:logging-interceptor:3.5.0',
+            //Okhttp[用于websocket]
+            "okhttp3"                      : 'com.squareup.okhttp3:okhttp:3.10.0',
+
+            //rxjava
+            "rxandroid"                    : 'io.reactivex.rxjava2:rxandroid:2.0.2',
+            "rxjava2"                      : 'io.reactivex.rxjava2:rxjava:2.2.6',
+
             //greendao
-            "greendao3"                      : 'org.greenrobot:greendao:3.2.2',
-            "generator"                      : "org.greenrobot:greendao-generator:3.2.2",
+            "greendao"                     : 'org.greenrobot:greendao:3.2.2',
+            "greendao-generator"           : "org.greenrobot:greendao-generator:3.2.2",
+            "greendao-gradle-plugin"       : 'org.greenrobot:greendao-gradle-plugin:3.2.2',//classpath 导入总工程
             //greendao数据库加密
-            "sqlcipher"                      : "net.zetetic:android-database-sqlcipher:3.5.6",
+            "sqlcipher"                    : "net.zetetic:android-database-sqlcipher:3.5.6",
+
+            //banner
+            "banner"                       : 'com.youth.banner:banner:1.4.10',
+            //MagicIndicator
+            "MagicIndicator"               : 'com.github.hackware1993:MagicIndicator:1.5.0',
+            //eventbus
+            "eventbus"                     : 'org.greenrobot:eventbus:3.0.0',
+
+            //图片
+            "glide"                        : 'com.github.bumptech.glide:glide:4.9.0',
+            "glide-compiler"               : 'com.github.bumptech.glide:compiler:4.6.1',//annotationProcessor 导入使用module
+            // 知乎图片选择框架
+            "matisse"                      : 'com.zhihu.android:matisse:0.5.2-beta2',
+            //腾讯图片选择器(全面)
+            "PictureSelector"              : 'com.github.LuckSiege.PictureSelector:picture_library:v2.5.3',
+            //图片缩放
+            "photoview"                    : 'com.github.chrisbanes:PhotoView:latest.release.here',
+
             //Android屏幕适配
-            "autolayout"                     : 'com.zhy:autolayout:1.4.5',
-            //安卓调试神器-Stetho
-            "stetho"                         : 'com.facebook.stetho:stetho:1.5.0',
-            "stetho-okhttp3"                 : 'com.facebook.stetho:stetho-okhttp3:1.5.0',
-            // 仿ios弹出对话窗体 已抽取到lib中
-            "alertview"                      : 'com.bigkoo:alertview:1.0.3',
-            //bugly sdk
-            "tencent-bugly"                  : 'com.tencent.bugly:crashreport_upgrade:latest.release',
-            //节操播放器
-            "jiecao"                         : 'fm.jiecao:jiecaovideoplayer:5.7',
-            //垂直的tabLayout
-            "VerticalTabLayout"              : "q.rorbin:VerticalTabLayout:1.2.5",
-            //水平tablayout
-            "FlycoTabLayout_Lib"             : "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar",
+            "autolayout"                   : 'com.zhy:autolayout:1.4.5',
+
+            //仿ios进度条
+            "kprogresshud"                 : 'com.kaopiz:kprogresshud:1.2.0',
+            // 仿ios弹出对话窗体
+            "alertview"                    : 'com.bigkoo:alertview:1.0.3',
             //图片形状
-            "roundedimageview"               : "com.makeramen:roundedimageview:2.2.1",
-            //gson
-            "gson"                           : "com.google.code.gson:gson:2.2.4",
+            "roundedimageview"             : "com.github.open-android:RoundedImageView:v1.0.0",
+
             //Crash 自动恢复框架
-            "recovery"                       : "com.zxy.android:recovery:0.1.6",
+            "recovery"                     : "com.zxy.android:recovery:1.0.0",
+            //Bugly集成 sdk
+            "bugly"                        : 'com.tencent.bugly:crashreport:latest.release',
+
             //zxing
-            "zxing"                          : "com.google.zxing:core:3.3.3"
+            "zxing"                        : "com.google.zxing:core:3.3.3",
+
+            //日志
+            "logger"                       : 'com.orhanobut:logger:2.2.0',
+
+            //富文本解析
+            "richtext"                     : 'com.zzhoujay.richtext:richtext:3.0.7',
+
+            //时间日期选择
+            /*{
+                exclude group: 'androidx.appcompat'
+                exclude group: 'androidx.recyclerview'
+            }*/
+            "materialdatetimepicker"       : 'com.wdullaer:materialdatetimepicker:3.2.3',
+            //时间,地址,条件选择器
+            "pickerView"                   : 'com.contrarywind:Android-PickerView:4.1.9',
+
+            //MPAndroidChart
+            "MPAndroidChart"               : 'com.github.PhilJay:MPAndroidChart:v3.0.3',
+
+            //安卓调试神器-Stetho
+            "stetho"                       : 'com.facebook.stetho:stetho:1.5.1',
+            "stetho-okhttp3"               : 'com.facebook.stetho:stetho-okhttp3:1.5.1',
+            "stetho-okhttp"                : 'com.facebook.stetho:stetho-okhttp:1.5.1',
+            "stetho-urlconnection"         : 'com.facebook.stetho:stetho-urlconnection:1.5.1',
+            "stetho:stetho-js-rhino"       : 'com.facebook.stetho:stetho-js-rhino:1.5.1',
     ]
 }

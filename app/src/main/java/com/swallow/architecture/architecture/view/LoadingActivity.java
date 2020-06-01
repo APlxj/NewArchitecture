@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.swallow.architecture.architecture.MainActivity;
 import com.swallow.architecture.architecture.R;
 import com.swallow.architecture.architecture.contract.ILoadingContract;
 import com.swallow.architecture.architecture.presenter.LoadingPresenter;
@@ -39,7 +38,6 @@ public class LoadingActivity
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        findViewById(R.id.bt_login).setOnClickListener(v -> startActivity(new Intent(LoadingActivity.this, MainActivity.class)));
     }
 
     @Override

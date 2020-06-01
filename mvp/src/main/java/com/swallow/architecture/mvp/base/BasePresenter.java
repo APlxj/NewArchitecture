@@ -6,8 +6,6 @@ import com.swallow.architecture.mvp.i.IModel;
 import com.swallow.architecture.mvp.i.IPresenter;
 import com.swallow.architecture.mvp.i.IView;
 
-import javax.inject.Inject;
-
 /**
  * 类描述：
  * 创建人：swallow.li

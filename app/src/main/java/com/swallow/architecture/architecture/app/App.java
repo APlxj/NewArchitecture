@@ -5,6 +5,7 @@ import android.os.Environment;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
+import com.facebook.stetho.Stetho;
 import com.swallow.architecture.architecture.view.LoadingActivity;
 
 import swallow.com.model_utils.CrashUtils;
@@ -18,6 +19,7 @@ public class App extends MultiDexApplication {
         super.onCreate();
         Utils.init(this);
         CrashUtils.init(Environment.getExternalStorageDirectory().getPath() + "/crash/", LoadingActivity.class);
+        //Stetho.initializeWithDefaults(this);
     }
 
 
